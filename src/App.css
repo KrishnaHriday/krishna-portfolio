@@ -1,0 +1,41 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  z-index: 1;
+}
+
+.nav-bar {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar a {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-bar a:hover {
+  color: #00ffff;
+}
+
+.content {
+  padding: 2rem;
+}
