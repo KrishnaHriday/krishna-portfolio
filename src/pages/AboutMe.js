@@ -1,17 +1,28 @@
-
-import React from "react";
+// src/pages/AboutMe.jsx
+import React from 'react';
+import { motion } from 'framer-motion';
 
 const AboutMe = () => {
   return (
-    <div className="page">
-      <h1>Hi, I’m Krishna Hriday 👋</h1>
-      <p>
-        I’m a passionate and dynamic learner pursuing a degree in <strong>VLSI</strong> at <strong>VIT Chennai</strong>.
-        I also hold a <strong>Diploma in Computer Applications</strong>. My journey is driven by curiosity, creation, and constant learning.
-      </p>
-      <p>
-        I believe that great things happen when you combine logic with imagination — which is why I bridge both hardware and code.
-      </p>
+    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white flex items-center justify-center px-6">
+      <motion.div
+        initial={{ opacity: 0, y: 60 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.3 }}
+        className="text-center"
+      >
+        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 animate-pulse">
+          I Build What Others Fear to Imagine.
+        </h1>
+
+        <p className="text-lg md:text-xl opacity-90 max-w-3xl mx-auto leading-relaxed">
+          I'm <span className="relative font-bold text-cyan-400 glow-text">Krishna</span> — a system architect, thinker, and creator.
+          <br />
+          Whether it’s RTL design, FPGA implementation, or high-performance logic,  
+          <br />
+          I make sure every bit counts.
+        </p>
+      </motion.div>
     </div>
   );
 };
