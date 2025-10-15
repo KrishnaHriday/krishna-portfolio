@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/krishna-portfolio/static/css/main.6c5bd802.css",
+    "main.js": "/krishna-portfolio/static/js/main.46ca027b.js",
+    "static/js/453.378a6866.chunk.js": "/krishna-portfolio/static/js/453.378a6866.chunk.js",
+    "index.html": "/krishna-portfolio/index.html",
+    "main.6c5bd802.css.map": "/krishna-portfolio/static/css/main.6c5bd802.css.map",
+    "main.46ca027b.js.map": "/krishna-portfolio/static/js/main.46ca027b.js.map",
+    "453.378a6866.chunk.js.map": "/krishna-portfolio/static/js/453.378a6866.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c5bd802.css",
+    "static/js/main.46ca027b.js"
+  ]
+}
